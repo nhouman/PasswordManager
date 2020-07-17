@@ -44,6 +44,5 @@ def generatePassword():
     hashed = hashlib.sha256(str(result).encode("utf-8")).hexdigest()
     file.write(hashed + "\n")
     file.close()
-generatePassword()
-                     
-
+    
+generatePassword()         
