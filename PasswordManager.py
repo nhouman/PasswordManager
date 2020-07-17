@@ -21,6 +21,7 @@ def setPassword():
         print("Passwords did not match.")
         setPassword()
     file.close()
+    
 def createAccount():
     file = open("info.txt", "w")
     setUsername()
